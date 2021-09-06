@@ -1,5 +1,3 @@
-##  RMAP渐变纹理
-
 ```js
 Shader "URPExample/RMAP着色器"
 {

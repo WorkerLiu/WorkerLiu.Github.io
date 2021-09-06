@@ -1,5 +1,3 @@
-## Blend混合
-
 ```js
 Shader "URPExample/Blend混合"
 {

@@ -1,5 +1,3 @@
-## Alpha通道测试
-
 ```js
 Shader "URPExample/Alpha通道测试"
 {

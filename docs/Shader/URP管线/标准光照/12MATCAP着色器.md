@@ -1,5 +1,3 @@
-## 12MATCAP着色器
-
 ```js
 Shader "URPExample/MATCAP着色器"
 {

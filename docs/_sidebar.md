@@ -6,3 +6,4 @@
 * UnityShader
     * [Buitin管线](Shader/Buitin管线/)
     * [URP管线](Shader/URP管线/)
+    * [通用字典](Shader/通用字典.md)
