@@ -35,7 +35,7 @@ SRP Batcher通过批量处理Bind和Draw GPU命令的序列，减少DrawCalls之
   - 绑定 Material 提交到CBuffer缓存
   - 绑定 Object 提交到CBuffer缓存
   - 最后在调用Draw Call
-  - **发生Shader改变时重新SetShaderPass***
+  - **发生Shader改变时重新SetShaderPass**
 
 ## Unity合批方式
 
