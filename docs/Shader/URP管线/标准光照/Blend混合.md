@@ -13,8 +13,8 @@ Shader "URPExample/Blend混合"
         { 
             "RenderPipeline"="UniversalRenderPipeline"
             "LightMode"="UniversalForward"
-            "Queue" = "Transparent"         // alpha混合
-            "RenderType" = "Transparent"    // alpha混合
+            "Queue" = "Transparent"         // 排序
+            "RenderType" = "Transparent"    // 类型
         }
         Blend SrcAlpha OneMinusSrcAlpha     // alpha混合
         
