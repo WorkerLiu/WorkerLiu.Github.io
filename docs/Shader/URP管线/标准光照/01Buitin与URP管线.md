@@ -9,7 +9,7 @@ Shader为单Pass实时光照、用单Pass ColorTexture代替GrabPass
 
 ### SRP Batcher如何工作
 
-![](01Buitin与URP管线/渲染流程.png)
+![](img/渲染流程.png)
 
 Unity中是可以随时修改材质的属性的。但伴随这一些缺点。例如当一个DrawCall使用一个新的Material时，会有很多流程工作要处理(SetPass Call)。因此场景中有越多的Material就会调用更多的CPU来设置GPU数据。
 
@@ -21,7 +21,7 @@ SRP Batcher通过批量处理Bind和Draw GPU命令的序列，减少DrawCalls之
 
 渲染流程分为GPU阶段和GPU阶段。**SRP Batcher** 主要是针对CPU的优化，性能消耗的重头则是**SetPass Cal**l渲染状态。对比**Standard Batcher** 和**SRP Batcher**的官方流程图。
 
-![](01Buitin与URP管线/SROShaderPass.png)
+![](img/SROShaderPass.png)
 
 - 标准的管线流程则非常繁琐
   - 收集Object数据提交到CBuffer缓存--> 提交GPU
